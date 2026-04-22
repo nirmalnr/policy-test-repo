@@ -15,7 +15,7 @@ policies:
   bundle:
     id: "example-logistics-policy-bundle"
     url: "https://raw.githubusercontent.com/nirmalnr/policy-test-repo/refs/heads/main/policy-testing/logistics/example-logistics.tar.gz"
-    policy_query_path: "data.policy.result"
+    policy_query_path: "data.logistics.result"
 
 governance:
   effective_from: "2026-04-14T00:00:00Z"
