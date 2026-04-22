@@ -1,7 +1,7 @@
 manifest_version: "1.0"
 manifest_type: "network-manifest"
 
-network_id: "example/logistics"
+network_id: "nfh.global/testnet"
 release_id: 2026.04
 
 publisher:
