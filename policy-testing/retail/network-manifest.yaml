@@ -1,0 +1,23 @@
+manifest_version: "1.0"
+manifest_type: "network-manifest"
+
+network_id: "example/retail"
+release_id: 2026.04
+
+publisher:
+  role: "NFO"
+  domain: "example.org"
+
+policies:
+  type: "rego"
+  source: "bundle"
+
+  bundle:
+    id: "example-retail-policy-bundle"
+    url: "https://example.org/policies/example-retail.tar.gz"
+    policy_query_path: "data.policy.result"
+
+governance:
+  effective_from: "2026-04-14T00:00:00Z"
+  effective_until: "2027-04-14T00:00:00Z"
+  signed: true
