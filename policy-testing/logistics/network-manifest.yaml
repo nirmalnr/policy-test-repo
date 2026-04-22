@@ -14,7 +14,7 @@ policies:
 
   bundle:
     id: "example-logistics-policy-bundle"
-    url: "https://example.org/policies/example-logistics.tar.gz"
+    url: "https://raw.githubusercontent.com/nirmalnr/policy-test-repo/refs/heads/main/policy-testing/logistics/example-logistics.tar.gz"
     policy_query_path: "data.policy.result"
 
 governance:
