@@ -15,7 +15,7 @@ policies:
   bundle:
     id: "example-logistics-policy-bundle"
     url: "https://example.org/policies/example-logistics.tar.gz"
-    policy_query_path: "data.logistics.result"
+    policy_query_path: "data.policy.result"
 
 governance:
   effective_from: "2026-04-14T00:00:00Z"
