@@ -1,8 +1,8 @@
-manifest_version: "1.0"
-manifest_type: "network-manifest"
+manifestVersion: "1.0"
+manifestType: "network-manifest"
 
-network_id: "nfh.global/testnet"
-release_id: 2026.04
+networkId: "nfh.global/testnet"
+releaseId: 2026.04
 
 publisher:
   role: "NFO"
@@ -15,9 +15,9 @@ policies:
   bundle:
     id: "example-logistics-policy-bundle"
     url: "https://raw.githubusercontent.com/nirmalnr/policy-test-repo/refs/heads/main/policy-testing/logistics/example-logistics.tar.gz"
-    policy_query_path: "data.logistics.result"
+    policyQueryPath: "data.logistics.result"
 
 governance:
-  effective_from: "2026-04-14T00:00:00Z"
-  effective_until: "2027-04-14T00:00:00Z"
+  effectiveFrom: "2026-04-14T00:00:00Z"
+  effectiveUntil: "2027-04-14T00:00:00Z"
   signed: true
