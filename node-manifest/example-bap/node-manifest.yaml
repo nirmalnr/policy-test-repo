@@ -1,0 +1,11 @@
+manifestVersion: "1.0"
+manifestType: "node-manifest"
+subscriberId: "beckn.one/example-NPs/example-bap"
+
+schema:
+  schemaObjects:
+    - contextUrl: "https://schema.beckn.io/energy/Order/2.0/context.jsonld"
+      type: "beckn:Order"
+
+governance:
+  effectiveFrom: "2026-01-01T00:00:00Z"
