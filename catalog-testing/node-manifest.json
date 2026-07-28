@@ -8,22 +8,50 @@
       }
     ],
     "signature": {
-      "keyId": "76EU7ofwRCF1aobQkShARrf1PAUsNpHqWUJoynPu9w45YFKmzqaPmy",
-      "value": "FUGC2COv9272u6qSYURlI8v/2D3wrfwHT9IlI8c48niM6U+cer3yFZYRdcLr5xkCbfhfjl9HgdXWb6LwcgUYBA==",
-      "validUntil": "2027-07-28T12:51:42Z"
+      "keyId": "76EU7aSyU6nCGC9i2svAkZUwJvCpBx92LvBrAZR48YVtRg3SjH86vM",
+      "value": "FGXkhOByoJdi5xuqGsoLnOLUdVNKztA/QbajkWufdpjVn0GLGdDOa9dx6gARAuYw6qth0Sa1dj0onsHL1hz8AQ==",
+      "validUntil": "2027-07-28T13:32:30Z"
     }
   },
   "schema": {
     "schemaObjects": [
       {
-        "baseUrl": "https://schema.nfh.global/RetailPerformance",
+        "baseUrl": "https://raw.githubusercontent.com/beckn/local-retail/refs/heads/feat/773-schema-version-mediation-test/schema/RetailConsideration",
+        "type": "RetailConsideration",
+        "supportedVersions": [
+          "v2.2"
+        ]
+      },
+      {
+        "baseUrl": "https://raw.githubusercontent.com/beckn/local-retail/refs/heads/feat/773-schema-version-mediation-test/schema/RetailResource",
+        "type": "RetailResource",
+        "supportedVersions": [
+          "v2.1"
+        ]
+      },
+      {
+        "baseUrl": "https://raw.githubusercontent.com/beckn/local-retail/refs/heads/feat/773-schema-version-mediation-test/schema/RetailOffer",
+        "type": "RetailOffer",
+        "supportedVersions": [
+          "v2.2"
+        ]
+      },
+      {
+        "baseUrl": "https://raw.githubusercontent.com/beckn/local-retail/refs/heads/feat/773-schema-version-mediation-test/schema/RetailCommitment",
+        "type": "RetailCommitment",
+        "supportedVersions": [
+          "v2.1"
+        ]
+      },
+      {
+        "baseUrl": "https://raw.githubusercontent.com/beckn/local-retail/refs/heads/feat/773-schema-version-mediation-test/schema/RetailPerformance",
         "type": "RetailPerformance",
         "supportedVersions": [
           "v2.1"
         ]
       },
       {
-        "baseUrl": "https://schema.nfh.global/RetailContract",
+        "baseUrl": "https://raw.githubusercontent.com/beckn/local-retail/refs/heads/feat/773-schema-version-mediation-test/schema/RetailContract",
         "type": "RetailContract",
         "supportedVersions": [
           "v2.1"
@@ -31,9 +59,9 @@
       }
     ],
     "signature": {
-      "keyId": "76EU7ofwRCF1aobQkShARrf1PAUsNpHqWUJoynPu9w45YFKmzqaPmy",
-      "value": "A0BjDE5+sI7e/IUPZlYiO1lZM9QJqEjQztbGOUVh2ktujrRgg3JeIQDLTvDv3pDtiG8ufbNfU6WELf6td6q5AA==",
-      "validUntil": "2027-07-28T12:48:45Z"
+      "keyId": "76EU7aSyU6nCGC9i2svAkZUwJvCpBx92LvBrAZR48YVtRg3SjH86vM",
+      "value": "XiuuZ+0SM/2QjLrDgG0PC5q9g0EM4ZceeRy3ueeCUe7ntvwYtvn9mWmcMZ3EuTU1bGUBg2FTOPjLbDxWo1CJCA==",
+      "validUntil": "2027-07-28T13:36:16Z"
     }
   },
   "governance": {
