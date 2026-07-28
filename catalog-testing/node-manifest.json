@@ -1,0 +1,45 @@
+{
+  "manifestVersion": "1.0",
+  "manifestType": "node-manifest",
+  "catalog": {
+    "catalogIndexes": [
+      {
+        "url": "https://cdn.open-economy.nfh.global/beckn/mobility-catalog-index.json"
+      },
+      {
+        "url": "https://cdn.open-economy.nfh.global/beckn/retail-catalog-index.json"
+      }
+    ],
+    "signature": {
+      "keyId": "76EU7ofwRCF1aobQkShARrf1PAUsNpHqWUJoynPu9w45YFKmzqaPmy",
+      "value": "q5BraNG5KRTPoV4kyozNy+R/17+vew5ztSamYzSrx6KzIcIulZeBtzE9LXb8WbN0nnWv96LD8QMB7LhjnLDUDQ==",
+      "validUntil": "2027-07-28T12:48:57Z"
+    }
+  },
+  "schema": {
+    "schemaObjects": [
+      {
+        "baseUrl": "https://schema.nfh.global/RetailPerformance",
+        "type": "RetailPerformance",
+        "supportedVersions": [
+          "v2.1"
+        ]
+      },
+      {
+        "baseUrl": "https://schema.nfh.global/RetailContract",
+        "type": "RetailContract",
+        "supportedVersions": [
+          "v2.1"
+        ]
+      }
+    ],
+    "signature": {
+      "keyId": "76EU7ofwRCF1aobQkShARrf1PAUsNpHqWUJoynPu9w45YFKmzqaPmy",
+      "value": "A0BjDE5+sI7e/IUPZlYiO1lZM9QJqEjQztbGOUVh2ktujrRgg3JeIQDLTvDv3pDtiG8ufbNfU6WELf6td6q5AA==",
+      "validUntil": "2027-07-28T12:48:45Z"
+    }
+  },
+  "governance": {
+    "effectiveFrom": "2024-01-01T00:00:00Z"
+  }
+}

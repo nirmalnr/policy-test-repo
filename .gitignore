@@ -1,2 +1,4 @@
 *.pem
 .DS_Store
+.env
+*.private.b64
