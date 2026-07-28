@@ -4,16 +4,13 @@
   "catalog": {
     "catalogIndexes": [
       {
-        "url": "https://cdn.open-economy.nfh.global/beckn/mobility-catalog-index.json"
-      },
-      {
-        "url": "https://cdn.open-economy.nfh.global/beckn/retail-catalog-index.json"
+        "url": "https://raw.githubusercontent.com/beckn/starter-kit/catalog-crawler/schemas/Beckn_catalog_index.json"
       }
     ],
     "signature": {
       "keyId": "76EU7ofwRCF1aobQkShARrf1PAUsNpHqWUJoynPu9w45YFKmzqaPmy",
-      "value": "q5BraNG5KRTPoV4kyozNy+R/17+vew5ztSamYzSrx6KzIcIulZeBtzE9LXb8WbN0nnWv96LD8QMB7LhjnLDUDQ==",
-      "validUntil": "2027-07-28T12:48:57Z"
+      "value": "FUGC2COv9272u6qSYURlI8v/2D3wrfwHT9IlI8c48niM6U+cer3yFZYRdcLr5xkCbfhfjl9HgdXWb6LwcgUYBA==",
+      "validUntil": "2027-07-28T12:51:42Z"
     }
   },
   "schema": {
