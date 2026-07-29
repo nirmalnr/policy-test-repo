@@ -1,0 +1,36 @@
+manifestVersion: "1.0"
+manifestType: "node-manifest"
+
+catalog:
+  catalogIndexes:
+    - url: "https://angular-absently-gab.ngrok-free.dev/beckn/index/becknCatalogs.index.json"
+
+schema:
+  schemaObjects:
+    - baseUrl: "https://raw.githubusercontent.com/beckn/local-retail/refs/heads/feat/773-schema-version-mediation-test/schema/RetailConsideration"
+      type: "RetailConsideration"
+      supportedVersions:
+        - "v2.2"
+    - baseUrl: "https://raw.githubusercontent.com/beckn/local-retail/refs/heads/feat/773-schema-version-mediation-test/schema/RetailResource"
+      type: "RetailResource"
+      supportedVersions:
+        - "v2.1"
+    - baseUrl: "https://raw.githubusercontent.com/beckn/local-retail/refs/heads/feat/773-schema-version-mediation-test/schema/RetailOffer"
+      type: "RetailOffer"
+      supportedVersions:
+        - "v2.2"
+    - baseUrl: "https://raw.githubusercontent.com/beckn/local-retail/refs/heads/feat/773-schema-version-mediation-test/schema/RetailCommitment"
+      type: "RetailCommitment"
+      supportedVersions:
+        - "v2.1"
+    - baseUrl: "https://raw.githubusercontent.com/beckn/local-retail/refs/heads/feat/773-schema-version-mediation-test/schema/RetailPerformance"
+      type: "RetailPerformance"
+      supportedVersions:
+        - "v2.1"
+    - baseUrl: "https://raw.githubusercontent.com/beckn/local-retail/refs/heads/feat/773-schema-version-mediation-test/schema/RetailContract"
+      type: "RetailContract"
+      supportedVersions:
+        - "v2.1"
+
+governance:
+  effectiveFrom: "2024-01-01T00:00:00Z"
